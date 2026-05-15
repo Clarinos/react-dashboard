@@ -20,6 +20,7 @@ L'application simule un tableau de bord de gestion budgétaire avec :
 
 ## 📁 Structure du projet
 
+```
 src/
 ├── components/
 │   └── Sidebar.jsx       # Barre de navigation latérale
@@ -30,6 +31,7 @@ src/
 │   └── mockData.js       # Données fictives simulant une API
 ├── App.jsx               # Routing principal
 └── main.jsx              # Point d'entrée, thème MUI
+```
 
 ## 🚀 Lancer le projet
 
