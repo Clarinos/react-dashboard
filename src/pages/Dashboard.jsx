@@ -20,18 +20,18 @@ function KpiCard({ label, value, color }) {
 export default function Dashboard() {
   return (
     <Box>
-      <Typography variant="h4" fontWeight="bold" mb={3}>
-        Tableau de bord
-      </Typography>
+        <Typography variant="h4" fontWeight="bold" mb={3}>
+            Tableau de bord
+        </Typography>
 
-      {/* Cartes KPI */}
-      <Grid container spacing={3} mb={4}>
+        {/* Cartes KPI */}
+        <Box sx={{ display: 'flex', gap: 3, mb: 4 }}>
         {kpiData.map((kpi) => (
-          <Grid item xs={12} sm={4} key={kpi.label}>
+            <Box key={kpi.label} sx={{ flex: 1 }}>
             <KpiCard {...kpi} />
-          </Grid>
+            </Box>
         ))}
-      </Grid>
+        </Box>
 
       {/* Graphique */}
       <Card elevation={3}>

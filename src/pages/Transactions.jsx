@@ -53,7 +53,7 @@ export default function Transactions() {
       <TableContainer component={Paper} elevation={3}>
         <Table>
           <TableHead>
-            <TableRow sx={{ backgroundColor: '#f5f5f5' }}>
+            <TableRow sx={{ backgroundColor: 'background.default' }}>
               <TableCell><strong>Date</strong></TableCell>
               <TableCell><strong>Libellé</strong></TableCell>
               <TableCell><strong>Catégorie</strong></TableCell>
