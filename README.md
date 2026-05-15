@@ -1,16 +1,21 @@
-# React + Vite
+# 💰 BudgetApp — Dashboard Budgétaire React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application web de pilotage budgétaire développée en ReactJS, dans le cadre d'un mini-projet personnel visant à monter en compétences sur l'écosystème frontend moderne.
 
-Currently, two official plugins are available:
+## 🖥️ Aperçu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+L'application simule un tableau de bord de gestion budgétaire avec :
+- Une vue **Dashboard** avec indicateurs clés (KPI) et graphique d'évolution mensuelle
+- Une vue **Transactions** avec tableau filtrable en temps réel
 
-## React Compiler
+## 🛠️ Technologies utilisées
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technologie | Rôle |
+|---|---|
+| ReactJS | Framework frontend, composants, hooks |
+| Material UI (MUI) | Bibliothèque de composants UI |
+| React Router | Navigation entre les pages |
+| Recharts | Visualisation graphique des données |
+| Vite | Bundler et serveur de développement |
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Structure du projet
